@@ -60,7 +60,7 @@ No, VMs must be located on a Hyper-V host server that's running on a supported W
 Site Recovery can replicate any workloads running on a supported VM or physical server. Site Recovery provides support for application-aware replication so that apps can be recovered to an intelligent state. It integrates with Microsoft applications such as SharePoint, Exchange, Dynamics, SQL Server and Active Directory, and works closely with leading vendors, includin Oracle, SAP, IBM and Red Hat. [Learn more](site-recovery-workload.md) about workload protection.
 
 
-### Do I Hyper-V hosts have to be in System Center VMM clouds in order to replicate them with Site Recovery? 
+### Do my Hyper-V hosts have to be in System Center VMM clouds in order to replicate them with Site Recovery? 
 
 If you want to replicate to a secondary datacenter then Hyper-V VMs must be located on Hyper-V hosts servers in a VMM cloud. If you want to replicate to Azure then you can replicate VMs on Hyper-V host servers with or without VMM clouds. [Learn more](site-recovery-hyper-v-site-to-azure.md). 
 
